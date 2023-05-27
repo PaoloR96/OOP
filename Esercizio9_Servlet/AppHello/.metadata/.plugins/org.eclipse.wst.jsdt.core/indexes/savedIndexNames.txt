@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+C:\Users\Utente\Desktop\Java\Esericizi\Esercizio9_Servlet\Esercizio2_AppHello\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-840958539.index
-3878615946.index
-3086993970.index
-4103905703.index
-2881800291.index
-1026618587.index
