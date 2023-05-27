@@ -1,0 +1,6 @@
+
+ago 23, 2022 12:38:12.608 NEW SESSION
+ago 23, 2022 12:38:12.608 [1780:10188:0823/123812.606:ERROR:device_event_log_impl.cc(214)] [12:38:12.606] USB: usb_service_win.cc:415 Could not read device interface GUIDs: Impossibile trovare il file specificato. (0x2)
+ago 23, 2022 12:38:12.609 [1780:10188:0823/123812.607:ERROR:device_event_log_impl.cc(214)] [12:38:12.607] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Un dispositivo collegato al sistema non è in funzione. (0x1F)
+ago 23, 2022 12:38:12.610 [1780:10188:0823/123812.608:ERROR:device_event_log_impl.cc(214)] [12:38:12.608] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Un dispositivo collegato al sistema non è in funzione. (0x1F)
+ago 23, 2022 12:38:12.610 [1780:10188:0823/123812.608:ERROR:device_event_log_impl.cc(214)] [12:38:12.608] USB: usb_device_handle_win.cc:1048 Failed to read descriptor from node connection: Un dispositivo collegato al sistema non è in funzione. (0x1F)
