@@ -1,5 +1,5 @@
 # OOP
-object-oriented programming
+object-oriented programming and web application
 
 In a first part, the principles of OOP are resumed.
 In folder 8, there are various examples of Db management,in these projects MySql is used, 
