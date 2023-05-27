@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-C:\Users\Utente\Desktop\Java\Esericizi\Esercizio9_Servlet\Esercizio1_HelloWord\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3295609125.index
-\ServerHello\src\main\java

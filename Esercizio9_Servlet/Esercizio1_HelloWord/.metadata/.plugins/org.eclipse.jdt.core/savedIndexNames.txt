@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+C:\Users\Utente\Desktop\Java\Esericizi\Esercizio9_Servlet\Esercizio1_HelloWord\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2395695008.index
-2245954586.index

@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+C:\Users\Utente\Desktop\Java\Esericizi\Esercizio9_Servlet\Esercizio1_HelloWord\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-2506106257.index
-2395695008.index
-1063770907.index
-3351615099.index
-857180231.index
-4266170147.index
