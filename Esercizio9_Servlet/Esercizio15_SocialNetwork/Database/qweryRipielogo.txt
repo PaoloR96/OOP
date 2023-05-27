@@ -1,0 +1,50 @@
+select * from Utente;
+select * from richiestaamicizia;
+
+
+
+SELECT DISTINCT Utente.IdUtente,Utente.Nome, Utente.Cognome
+FROM Utente,richiestaamicizia
+WHERE richiestaamicizia.UtenteRicevente="Angelo.Laurenza6218"   and (IdUtente IN (SELECT UtenteRichiedente
+FROM richiestaamicizia
+WHERE StatoRichiesta = "1"))
+ORDER BY Utente.Nome, Utente.Cognome ASC;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+SELECT DISTINCT Utente.IdUtente,Utente.Nome, Utente.Cognome
+FROM Utente,richiestaamicizia
+WHERE richiestaamicizia.UtenteRichiedente="francesco.dionisio9296"   and   (IdUtente IN (SELECT UtenteRicevente
+FROM richiestaamicizia
+WHERE StatoRichiesta = "1"))
+ORDER BY Utente.Nome, Utente.Cognome ASC;
+
+select * from richiestaamicizia where  UtenteRichiedente="francesco.dionisio9296"  and  StatoRichiesta = "1";
+
+
+
+
+
+
+SELECT DISTINCT Utente.IdUtente,Utente.Nome, Utente.Cognome
+FROM Utente,richiestaamicizia
+WHERE richiestaamicizia.UtenteRicevente="Paolo.Russo9634" and  richiestaamicizia.StatoRichiesta="1"   and   (IdUtente IN (SELECT UtenteRichiedente
+FROM richiestaamicizia
+WHERE StatoRichiesta = "1"  and UtenteRichiedente="francesco.dionisio9296"))
+ORDER BY Utente.Nome, Utente.Cognome ASC;
+
+
+
+
+Update  richiestaamicizia set  StatoRichiesta="2" where richiestaamicizia.UtenteRichiedente="francesco.dionisio9296" and  richiestaamicizia.UtenteRicevente="Paolo.Russo9634";

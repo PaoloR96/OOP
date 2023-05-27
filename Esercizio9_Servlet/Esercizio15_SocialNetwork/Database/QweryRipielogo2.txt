@@ -1,0 +1,37 @@
+select * from Utente;
+select * from pubblica;
+INSERT INTO pubblica(Id_Post,IdUtente,DataCreazione) values (1,"Paolo.Russo9634","31/01/1996");
+INSERT INTO Post(TipoPost,Contenuto) values ("1","ciaoooo");
+SELECT MAX(Id_Post)  FROM Post;
+select * from Post;
+select * from Pubblica;
+select * from Post;
+Drop table post;
+Drop table pubblica;
+
+
+CREATE TABLE Post (
+    
+    Id_Post integer(10)  NOT NULL AUTO_INCREMENT,
+    TipoPost integer(10) NOT NULL,
+    Descrizione varchar(150),
+    Contenuto varchar(255),
+    PRIMARY KEY (Id_Post)
+
+);
+
+
+
+
+CREATE TABLE Pubblica (
+    
+    
+    Id_Post integer(10) NOT NULL,
+    IdUtente varchar(50) NOT NULL,	
+    DataCreazione varchar(10) NOT NULL,
+    PRIMARY KEY (Id_Post,IdUtente),
+    FOREIGN KEY (IdUtente) REFERENCES Utente(IdUtente),
+    FOREIGN KEY (Id_Post) REFERENCES Post(Id_Post)
+    
+
+);

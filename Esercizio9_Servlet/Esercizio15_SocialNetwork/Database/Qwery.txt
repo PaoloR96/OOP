@@ -1,0 +1,42 @@
+//stampa richieste d'amicizia inviate
+
+SELECT DISTINCT Utente.IdUtente,Utente.Nome, Utente.Cognome
+FROM Utente,richiestaamicizia
+WHERE richiestaamicizia.UtenteRichiedente="francesco.dionisio9296"   and (IdUtente IN (SELECT UtenteRicevente
+FROM richiestaamicizia
+WHERE StatoRichiesta = "1"))
+ORDER BY Utente.Nome, Utente.Cognome ASC;
+
+//stampa ricerca d'amicizia ricevute
+
+SELECT DISTINCT Utente.IdUtente,Utente.Nome, Utente.Cognome
+FROM Utente,richiestaamicizia
+WHERE richiestaamicizia.UtenteRicevente="Angelo.Laurenza6218"   and (IdUtente IN (SELECT UtenteRichiedente
+FROM richiestaamicizia
+WHERE StatoRichiesta = "1"))
+ORDER BY Utente.Nome, Utente.Cognome ASC;
+
+
+//stampa richieste amicizie ricevute
+SELECT DISTINCT Utente.IdUtente,Utente.Nome, Utente.Cognome
+FROM Utente,richiestaamicizia
+WHERE   richiestaamicizia.StatoRichiesta="1"   and   (IdUtente IN (SELECT UtenteRichiedente
+FROM richiestaamicizia
+WHERE StatoRichiesta = "1"  and richiestaamicizia.UtenteRicevente="Paolo.Russo9634"))
+ORDER BY Utente.Nome, Utente.Cognome ASC;
+
+
+
+
+//accetta richiesta amicizia
+Update  richiestaamicizia set  StatoRichiesta="2" where richiestaamicizia.UtenteRichiedente="francesco.dionisio9296" and  richiestaamicizia.UtenteRicevente="Paolo.Russo9634";
+
+
+//lista amici aggiunti
+
+SELECT DISTINCT Utente.IdUtente,Utente.Nome, Utente.Cognome
+FROM Utente,richiestaamicizia
+WHERE richiestaamicizia.UtenteRichiedente="francesco.dionisio9296"   and (IdUtente IN (SELECT UtenteRicevente
+FROM richiestaamicizia
+WHERE StatoRichiesta = "2"))
+ORDER BY Utente.Nome, Utente.Cognome ASC;
