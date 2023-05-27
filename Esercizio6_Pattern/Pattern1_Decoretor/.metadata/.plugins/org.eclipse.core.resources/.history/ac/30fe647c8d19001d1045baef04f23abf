@@ -1,0 +1,31 @@
+////Il pattern Decorator consente all’utente di aggiungere nuove funzionalità ad un oggetto 
+//esistente senza alterarne la struttura. Questo tipo di design pattern rientra nei pattern Strutturali,
+//poiché funge da involucro per la classe esistente.
+public class main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Figura circle = new Cerchio();
+		Figura redCircle = new FiguraRossaDecorator(new Cerchio());
+		c1.disegna();
+		
+		
+
+	}
+
+}
+
+public class Main {
+    public static void main(String[] args) {
+
+        Figura circle = new Cerchio();
+        Figura redCircle = new FiguraRossaDecorator(new Cerchio());
+        Figura redRectangle = new FiguraRossaDecorator(new Rettangolo());
+        System.out.println("[MAIN]: Cerchio con bordi normali");
+        circle.disegna();
+        System.out.println("\n[MAIN]: Cerchio con bordi rossi");
+        redCircle.disegna();
+        System.out.println("\n[MAIN]: Rettangolo con bordi rossi");
+        redRectangle.disegna();
+    }
+}

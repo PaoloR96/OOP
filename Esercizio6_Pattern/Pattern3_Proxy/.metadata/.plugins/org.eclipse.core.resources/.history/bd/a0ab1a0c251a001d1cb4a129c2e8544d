@@ -1,0 +1,15 @@
+
+public class ImmagineProxy implements Immagine {
+	public String NomeFile;
+	
+	public ImmagineReale immReale;
+	
+	
+	
+	@Override
+	public void Mostra() {
+		System.out.println("[IMMAGINEPROXY]: mostra(): " + NomeFile);
+		
+	}
+
+}

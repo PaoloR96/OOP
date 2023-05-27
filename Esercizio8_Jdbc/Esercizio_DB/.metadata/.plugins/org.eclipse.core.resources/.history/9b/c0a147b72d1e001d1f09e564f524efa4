@@ -1,0 +1,14 @@
+import com.mysql.jdbc.Connection;
+
+import DbConnection.*;
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Connection con = null;
+		DBConnection dbConn= new DBConnection();
+		//con=(Connection) dbConn.getConnection();
+		//System.out.print(con);
+	}
+
+}

@@ -1,0 +1,29 @@
+package DbConnection;
+
+import com.mysql.jdbc.Connection;
+
+public class DBConnection {
+	static final String URL_DB="jdbc:mysql://localhost:3306/MYLOGIN?characterEncoding=latin1&useConfigs=maxPerformanc";
+	static final String USER_DB="root";
+	static final String PSW_DB="paolo";
+	private static DBConnection conn;
+	private static DBConnection instance = new DBConnection();
+	private DBConnection(){}
+	public static DBConnection getInstance(){
+        try {
+			conn=GetConnection();
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+        return conn;
+    }
+	private static DBConnection GetConnection(){
+        System.out.print("Instaziamento Singleton");
+        //load driver mysql
+		return null;
+        
+        
+    }
+
+}

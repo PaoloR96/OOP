@@ -1,0 +1,6 @@
+public class Cerchio implements Figura {
+	@Override
+	public void Disegna() {
+		System.out.println("[CERCHIO]: disegna()");
+	}
+}

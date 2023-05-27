@@ -1,0 +1,15 @@
+package Principale;
+
+public class Principale {
+
+	public static void main(String[] args) {
+		//istanzio la classe Punto p1
+		Punto p1 = new Punto();
+		p1.x=5;
+		p1.y=10;
+		
+		
+
+	}
+
+}

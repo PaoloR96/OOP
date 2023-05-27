@@ -1,0 +1,59 @@
+package Controller;
+import java.util.List;
+
+import com.mysql.jdbc.Connection;
+
+import Entity.Persona;
+import DbConnection.*;
+import Entity.*;
+import EntityDao.*;
+
+public class Controller {
+	private static Connection con;
+	 public Controller() {
+		DBConnection cnndb= new DBConnection();
+		con=(Connection) DBConnection.getConnection();
+		System.out.print(con);
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	public void AggiungiPersona(Persona persona) {
+			boolean IsAggiunto=false;
+			PersonaDao personaDao= new PersonaDao();
+			IsAggiunto= personaDao.AggElemento(persona,con);
+			if( IsAggiunto== true) {
+				System.out.print("L'elemento Persona composto da ["+persona.GetCodFiscale()+"],["+persona.GetCognome()+"],["+persona.GetNome()+"];");
+				
+			}else {
+				System.out.print("Problemi nell'inserimento");
+				
+				
+			}
+		
+		
+		
+		
+	}
+	public void  CancellaPersona(String CodiceFiscale) {
+	}
+	public Persona SelezionaPersona(String CodiceFiscale) {
+		return null;
+	}
+	public List<Persona> ListaPersona() {
+		return null;
+	}
+	public void Modifica(Persona persona) {
+	}
+	
+	
+	
+	
+
+}

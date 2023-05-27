@@ -1,0 +1,8 @@
+package Entity;
+
+public class Persona {
+	private String codiceFiscale;
+	private String Nome;
+	private String Cognome;
+	
+}

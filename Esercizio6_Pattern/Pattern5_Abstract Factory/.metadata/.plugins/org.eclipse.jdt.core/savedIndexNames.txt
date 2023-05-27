@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Utente\Desktop\Java\Esericizi\Esercizio6_Pattern\Pattern5_Abstract Factory\.metadata\.plugins\org.eclipse.jdt.core
+3245952837.index
+2245954586.index
+1865797976.index

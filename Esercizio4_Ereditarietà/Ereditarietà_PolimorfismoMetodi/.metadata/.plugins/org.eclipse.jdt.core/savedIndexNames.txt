@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Utente\Desktop\Java\Esericizi\Esercizio4_Ereditariet‡\Ereditariet‡ConPolimorfismo\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+591889177.index
+2245954586.index

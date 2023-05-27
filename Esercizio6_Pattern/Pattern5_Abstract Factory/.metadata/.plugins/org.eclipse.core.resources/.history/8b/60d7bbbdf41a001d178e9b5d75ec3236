@@ -1,0 +1,22 @@
+
+public class Cerchio implements Figura {
+
+	@Override
+	public void Disegna() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void CalcolaArea() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void GetArea() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

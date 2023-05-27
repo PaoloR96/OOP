@@ -1,0 +1,27 @@
+package Controller;
+
+import java.util.List;
+
+import Entity.Persona;
+
+public class Controller {
+	
+	
+	public void AggiungiPersona(Persona persona) {
+	}
+	public void  CancellaPersona(String CodiceFiscale) {
+	}
+	public Persona SelezionaPersona(String CodiceFiscale) {
+		return null;
+	}
+	public List<Persona> ListaPersona() {
+		return null;
+	}
+	public void Modifica(Persona persona) {
+	}
+	
+	
+	
+	
+
+}

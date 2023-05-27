@@ -1,0 +1,11 @@
+package EntityDao;
+import java.util.List;
+import Entity.Persona;
+public interface OperazioniDAO_INTERFACE {
+	//implementazioni CRUD
+	public void AggiungiPersona(Persona persona);
+	public void  CancellaPersona(String CodiceFiscale);
+	public Persona SelezionaPersona(String CodiceFiscale);
+	public List<Persona> ListaPersona();
+	public void Modifica(Persona persona);
+}

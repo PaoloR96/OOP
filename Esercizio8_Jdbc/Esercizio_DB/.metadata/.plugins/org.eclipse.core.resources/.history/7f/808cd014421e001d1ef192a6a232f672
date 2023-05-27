@@ -1,0 +1,18 @@
+package EntityDao;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.Statement;
+
+import Entity.Persona;
+
+public class PersonaDao {
+ public boolean AggElemento(Persona p, Connection conn) {
+	 Statement stmt = (Statement) conn.createStatement();
+	 
+	 boolean IsAggiunto=false;
+	 
+	return IsAggiunto;
+	 
+	 
+ }
+}

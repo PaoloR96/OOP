@@ -1,0 +1,14 @@
+
+public class FiguraDecoretor implements Figura {
+	protected Figura FiguraDec;
+	@Override
+	public void Disegna() {
+		// TODO Auto-generated method stub
+		
+	}
+	public void FiguraDecoretor(Figura FiguraDecoretor) {
+		this.FiguraDec=FiguraDecoretor;
+		
+	}
+
+}

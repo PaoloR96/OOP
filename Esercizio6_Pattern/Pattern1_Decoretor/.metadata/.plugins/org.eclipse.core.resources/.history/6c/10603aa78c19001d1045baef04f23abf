@@ -1,0 +1,24 @@
+
+public class FiguraRossaDecoretor extends FiguraDecoretor {
+	
+	public FiguraRossaDecoretor(Figura FiguraDecoretor) {
+		super(FiguraDecoretor);
+		// TODO Auto-generated constructor stub
+	}
+	//metodi
+	public void Disegna() {
+		System.out.print("Ok1");
+		FiguraDec.Disegna();
+		aggiungiBordiRossi(FiguraDec);
+		System.out.print("Ok");
+		
+	}
+private void aggiungiBordiRossi(Figura FiguraDecoretor) {
+	System.out.println("[FIGURAROSSADECORATOR]: Bordo Colore: Rosso");
+		
+	}
+	
+
+	
+
+}

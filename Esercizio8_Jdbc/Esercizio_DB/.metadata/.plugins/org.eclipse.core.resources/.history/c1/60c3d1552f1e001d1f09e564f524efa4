@@ -1,0 +1,10 @@
+package EntityDao;
+
+import Entity.Persona;
+
+public interface OperazioniDAO_INTERFACE {
+	//implementazioni CRUD
+	public void AggiungiPersona(Persona persona);
+	
+
+}

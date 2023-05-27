@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Utente\Desktop\Java\Esericizi\Esercizio2_Classe\Classe3_Costruttore\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+3901315352.index
+2245954586.index

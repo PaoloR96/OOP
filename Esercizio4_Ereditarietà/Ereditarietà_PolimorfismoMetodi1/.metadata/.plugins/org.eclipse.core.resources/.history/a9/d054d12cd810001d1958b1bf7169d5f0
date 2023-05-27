@@ -1,0 +1,19 @@
+//Si definisca infine la classe Docente che estende
+//Persona con campi aggiuntivi materia e salario. Anche in questo caso la classe dovrà avere
+//metodi per leggere e impostare i vari attributi e dovrà sovrascrivere il metodo toString().
+
+
+
+
+
+public class Docente extends Persona {
+	protected String Materia;
+	protected int Salario;
+	public Docente(String cf, String nome, String cognome,String materia, int salario) {
+		super(cf, nome, cognome);
+		this.Materia=materia;
+		this.Salario=salario;
+		// TODO Auto-generated constructor stub
+	}
+
+}

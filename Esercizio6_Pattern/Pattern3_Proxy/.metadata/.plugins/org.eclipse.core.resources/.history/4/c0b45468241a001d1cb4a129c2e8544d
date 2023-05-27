@@ -1,0 +1,19 @@
+
+public class ImmagineReale implements Immagine {
+	public String NomeFile;
+	
+	public ImmagineReale() {
+		
+	}
+	
+	void CaricaImmagine() {
+		
+		
+	}
+	@Override
+	public void Mostra() {
+		System.out.println("[IMMAGINEREALE]: mostra(): " + nomeFile);
+		
+	}
+
+}

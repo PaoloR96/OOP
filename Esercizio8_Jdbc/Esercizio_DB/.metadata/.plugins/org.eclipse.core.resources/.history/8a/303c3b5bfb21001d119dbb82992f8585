@@ -1,0 +1,11 @@
+package ClearCls;
+import java.io.IOException;
+public class ClearCL {
+	
+	
+
+	 public void CLS() {
+		
+}
+	 
+}

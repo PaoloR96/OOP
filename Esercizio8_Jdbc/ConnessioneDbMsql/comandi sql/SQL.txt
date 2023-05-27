@@ -1,0 +1,9 @@
+CREATE TABLE Persona
+( id_persona number(10) NOT NULL,
+  nome varchar2(50) NOT NULL,
+  cognome varchar2(50)
+);
+
+INSERT INTO Persona (id_persona, nome, cognome) VALUES (1,'Paolo','Russo');
+
+select * FROM Persona;

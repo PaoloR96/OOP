@@ -1,0 +1,42 @@
+package DbConnection;
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Connection;
+
+public class DBConnection {
+	static final String URL_DB="jdbc:mysql://localhost:3306/MYLOGIN?characterEncoding=latin1";
+	static final String USER_DB="root";
+	static final String PSW_DB="paolo";
+	private static  Connection conn;
+	private static DBConnection instance = new DBConnection();
+	private DBConnection(){}
+	public static Connection getInstance(){
+        GetConnection();
+        return conn;
+    }
+	private static java.sql.Connection GetConnection() {
+		System.out.println("[SINGLETON]: OK!");
+		//load driver
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			java.sql.Connection conn = DriverManager.getConnection(URL_DB, USER_DB, PSW_DB);
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return conn;
+		
+		
+	
+	
+       
+
+}
+	
+}
+	

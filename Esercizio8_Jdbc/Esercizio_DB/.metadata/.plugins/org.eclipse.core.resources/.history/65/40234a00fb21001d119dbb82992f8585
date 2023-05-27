@@ -1,0 +1,13 @@
+package ClearCls;
+import java.io.IOException;
+public class ClearCL {
+	
+	
+
+	 void CLS {
+	    
+	        new ProcessBuilder("cmd", "/c", "cls").inheritIO().start().waitFor();
+	    
+	}
+
+}

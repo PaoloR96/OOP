@@ -1,0 +1,33 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+public class Main {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		 Scanner scanner = new Scanner(System.in);
+		 ArrayList<Studente> studente = new ArrayList<Studente>();
+		 for(int i=0;i<2;i++) {
+			   System.out.println("Inserire numero Matricola:");
+		        char matr = scanner.next().charAt(0);
+		        System.out.println("Inserire numero Nome:");
+		        char nome = scanner.next().charAt(0);
+		        System.out.println("Inserire numero Cognome:");
+		        char cognome = scanner.next().charAt(0);
+		        System.out.println("Inserire l'età:");
+		        int eta = scanner.next().charAt(0);
+		        Studente  st =new Studente(matr,nome,cognome,eta);
+		        studente.add(st);
+		        
+			 
+		 }
+		 for (Studente s : studente) {
+			  
+	            System.out.print(s.getClass() + " ");
+	        }
+		
+
+	}
+
+}

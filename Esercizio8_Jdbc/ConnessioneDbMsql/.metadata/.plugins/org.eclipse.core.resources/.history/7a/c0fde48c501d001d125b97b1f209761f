@@ -1,0 +1,13 @@
+import java.sql.*;
+
+
+
+@SuppressWarnings("unused")
+public class ConnessioneDb {
+	static final String DB_URL ="jdbc:mysql://localhost:3306/PROVA";
+	static final String USER = "root";
+	static final String PASS = "paolo";
+	public void GetConnection() {
+		Class.forName("com.mysql.jdbc.Driver");  
+}
+}

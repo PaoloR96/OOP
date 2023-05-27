@@ -1,0 +1,27 @@
+import java.sql.*;
+
+import oracle.jdbc.OracleDriver;  
+
+public class ConnessioneDb {
+	static final String DB_URL = "jdbc:oracle:thin:@127.0.0.1:8080:PROVA";
+	static final String USER = "sytem";
+	static final String PASS = "1111";
+	public void GetConnection(){  
+		
+		try {
+			Class.forName("oracle.jdbc.OracleDriver");
+			DriverManager.registerDriver(new OracleDriver());
+			Connection con=DriverManager.getConnection(DB_URL,USER,PASS); 
+			System.out.println("Connessione andata a buon fine!!");
+			
+			
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}  
+	}
+
+}

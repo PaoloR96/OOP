@@ -1,0 +1,8 @@
+
+public class NumeroIntero {
+
+	public NumeroIntero() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\Utente\Desktop\Java\Esericizi\Esercizio6_Pattern\Pattern2_Facede\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+1603043683.index
+2245954586.index

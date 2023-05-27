@@ -1,0 +1,25 @@
+package EntityDao;
+
+import java.sql.SQLException;
+
+import com.mysql.jdbc.Connection;
+import com.mysql.jdbc.Statement;
+
+import Entity.Persona;
+
+public class PersonaDao {
+ public boolean AggElemento(Persona p, Connection conn) {
+	 try {
+		Statement stmt = (Statement) conn.createStatement();
+	} catch (SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	 
+	 boolean IsAggiunto=false;
+	 
+	return IsAggiunto;
+	 
+	 
+ }
+}

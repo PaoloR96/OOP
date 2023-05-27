@@ -1,0 +1,11 @@
+
+public class Punto {
+
+	public Punto() {
+		// costruttore
+		System.out.println("Punto Costruito");
+		
+	}
+	int x=0;
+	int y=0;
+}

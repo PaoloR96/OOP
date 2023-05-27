@@ -1,0 +1,8 @@
+
+public abstract class VideoRisultato {
+	//definisco i metodi
+	public void StampaRisultato(int risultato) {
+		System.out.print(risultato);
+	}
+
+}

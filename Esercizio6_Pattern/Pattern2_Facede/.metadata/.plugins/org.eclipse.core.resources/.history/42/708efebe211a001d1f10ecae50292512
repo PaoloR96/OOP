@@ -1,0 +1,19 @@
+public class Facede  {
+		private Figura Cerchio;
+		private Figura Rettangolo;
+		public Facede() {
+			Cerchio c1 = new Cerchio();
+			Rettangolo r1= new Rettangolo();
+		}
+		public void DisegnaCerchio() {
+			System.out.println("[FACADE]: disegnaCerchio()");
+			Cerchio.Disegna();
+		}
+		public void DisegnaRettangolo() {
+			System.out.println("[FACADE]: disegnaRettangolo()");
+			Rettangolo.Disegna();
+		}
+		
+	
+
+}

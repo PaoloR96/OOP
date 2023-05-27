@@ -1,0 +1,36 @@
+import java.util.List;
+
+import com.mysql.jdbc.Connection;
+
+import DbConnection.*;
+import Entity.Persona;
+import Controller.*;
+public class Main {
+
+	public static void main(String[] args) {
+		int scelta=0;
+		Controller controller =new Controller();
+		Persona p1= new Persona("RSS","PAOLO","RUSSO");
+		
+		do {
+			System.out.print("Menu'");
+			System.out.println();
+			System.out.print("1)Aggiungi Persona");
+			System.out.println();
+			System.out.print("2)Cancella Peronsa");
+			System.out.println();
+			
+			
+		}while(scelta!=4);
+	//controller.AggiungiPersona(p1);
+	//controller.CancellaPersona("RSS");
+	//controller.ListaPersona();
+	List<Persona> lsPers =controller.ListaPersona(); 
+    for (Persona allPers : lsPers) {
+        System.out.println(allPers);
+    }
+			
+		
+	}
+
+}

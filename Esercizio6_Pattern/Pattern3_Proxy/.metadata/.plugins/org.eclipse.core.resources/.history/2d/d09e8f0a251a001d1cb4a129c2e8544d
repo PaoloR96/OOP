@@ -1,0 +1,10 @@
+
+public class ImmagineProxy implements Immagine {
+
+	@Override
+	public void Mostra() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

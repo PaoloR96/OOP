@@ -1,0 +1,11 @@
+
+public class Outer2 {
+private String stringa = "esterna";
+public class Inner2 {
+private String stringa = "interna";
+public void metodoInner() {
+System.out.println(Outer2.this.stringa +
+" " + this.stringa);
+}
+}
+}

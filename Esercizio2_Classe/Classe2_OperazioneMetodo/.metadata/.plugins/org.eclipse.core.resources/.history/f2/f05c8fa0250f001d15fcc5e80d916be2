@@ -1,0 +1,12 @@
+
+public class ClasseUno {
+
+	public static void main(String[] args) {
+		Aritmetica OggettoSomma=new Aritmetica();
+		int somma= OggettoSomma.Somma(10, 20);
+		System.out.println("la somma tra 10+20="somma);
+		
+
+	}
+
+}

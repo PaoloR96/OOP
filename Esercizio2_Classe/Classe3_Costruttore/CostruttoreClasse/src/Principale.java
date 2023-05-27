@@ -1,0 +1,10 @@
+
+public class Principale {
+
+	public static void main(String[] args) {
+		//istanzio l'oggetto punto
+		Punto p1=new Punto();
+
+	}
+
+}

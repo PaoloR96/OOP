@@ -1,0 +1,30 @@
+//Creare una classe di nome Persona con le
+//variabili di istanza: cognome,nome, codice
+//fiscale e città di tipo stringa.
+//• La classe deve contenere un costruttore di
+//default che inizializzi le variabili di istanza con NULL; un costruttore parametrico; 
+//i metodi set e get ed un metodo chiamato
+//AnnoNascita che a partire dal codice fiscale
+//ricavi e restituisca l'anno di nascita di una
+//persona.
+
+
+
+
+public class Persona {
+			protected String Cognome;
+			protected String Nome;
+			protected String CodiceFiscale;
+			protected String Citta;
+			//costruttore
+			public Persona() {
+				Nome=null;
+				Cognome=null;
+				CodiceFiscale=null;
+				Citta=null;
+				
+				
+			}
+			
+
+}

@@ -1,0 +1,12 @@
+
+public class FiguraRossaDecoretor extends FiguraDecoretor {
+	public FiguraRossaDecoretor(Figura FiguraDecoretor) {
+		super(FiguraDecoretor);
+		// TODO Auto-generated constructor stub
+	}
+
+	private Figura figura;
+
+	
+
+}

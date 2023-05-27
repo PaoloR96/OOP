@@ -1,0 +1,5 @@
+CREATE TABLE Persona
+( CodiceFiscale varchar(10) NOT NULL,
+  nome varchar(50) NOT NULL,
+  cognome varchar(50)
+);

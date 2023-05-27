@@ -1,0 +1,28 @@
+import java.sql.*;
+
+public class ConnessioneDb {
+	static final String DB_URL ="jdbc:mysql://localhost:3306/PROVA?characterEncoding=latin1&useConfigs=maxPerformance";
+	static final String USER = "root";
+	static final String PASS = "paolo";
+	public void GetConnection() {
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+			try {
+				Connection con=DriverManager.getConnection(DB_URL,USER,PASS);
+				System.out.print("connesso");
+				System.out.println());
+				Statement stmt=con.createStatement();  
+				ResultSet rs=stmt.executeQuery("select * from persona");  
+				while(rs.next())  
+					System.out.println(rs.getInt(1)+"  "+rs.getString(2)+"  "+rs.getString(3));  
+					con.close();  
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} 
+		} catch (ClassNotFoundException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}  
+}
+}

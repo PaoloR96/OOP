@@ -1,0 +1,7 @@
+public class Aritmetica {
+	public int Somma(int a, int b) {
+		int somma=a+b;
+		return somma;
+	}
+
+}

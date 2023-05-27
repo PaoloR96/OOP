@@ -1,0 +1,24 @@
+
+public class Cerchio implements Figura {
+
+	@Override
+	public void Disegna() {
+		System.out.println("[CERCHIO] : disegna()");
+		
+	}
+
+	@Override
+	public void CalcolaArea() {
+		 System.out.println("[CERCHIO] : calcolaArea()::start");
+	        area = (raggio*raggio)*piGreco;
+	        System.out.println("[CERCHIO] : calcolaArea()::end");
+		
+	}
+
+	@Override
+	public void GetArea() {
+		System.out.println("[CERCHIO: area = " + area + " ]");
+		
+	}
+
+}

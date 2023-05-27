@@ -1,0 +1,37 @@
+package Controller;
+import java.util.List;
+
+import com.mysql.jdbc.Connection;
+
+import Entity.Persona;
+import DbConnection.*;
+
+public class Controller {
+	
+	
+	Connection con = (Connection) DBConnection.getConnection();
+	
+	
+	
+	
+	
+	
+	public void AggiungiPersona(Persona persona) {
+		
+	}
+	public void  CancellaPersona(String CodiceFiscale) {
+	}
+	public Persona SelezionaPersona(String CodiceFiscale) {
+		return null;
+	}
+	public List<Persona> ListaPersona() {
+		return null;
+	}
+	public void Modifica(Persona persona) {
+	}
+	
+	
+	
+	
+
+}

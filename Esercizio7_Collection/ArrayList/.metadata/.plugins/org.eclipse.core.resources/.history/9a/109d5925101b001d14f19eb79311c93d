@@ -1,0 +1,16 @@
+public class Studente {
+	private char Matricola;
+	private char Nome;
+	private char Cognome;
+	private int eta;
+	//definisco il costruttore parametrico
+	public Studente(char matr, char nome2, char cognome2,int eta) {
+		this.Matricola=matr;
+		this.Nome=nome2;
+		this.Cognome=cognome2;
+		this.eta=eta;
+	}
+	public char GetMatricola() {
+			return this.Matricola;
+	}
+}

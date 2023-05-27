@@ -1,0 +1,14 @@
+
+public class ClasseEsterna {
+	private String stringaEsterna = "JAVA";
+	public void metodoEsterno() {
+		    final String stringaMetodo = "5";
+			//classe innestata
+			class ClasseInterna {
+					public void metodoInterno(){
+						System.out.println(stringaEsterna + " " +stringaMetodo);
+					}
+			}
+	
+	}
+}

@@ -1,0 +1,37 @@
+//Si definisca poi una classe Studente come estensione di Persona; 
+//i campi aggiuntivi di Studente rispetto a Persona sono matricola e università. 
+//Inoltre la classe Studente dovrà avere i metodi per impostare e leggere tali campi
+//e dovrà sovrascrivere il metodo toString(). 
+public class Studente extends Persona {
+	protected String Matricola;
+	protected String Uni;
+	public Studente(String cf, String nome, String cognome, String matricola, String Uni) {
+		super(cf, nome, cognome);
+		this.Matricola=matricola;
+		this.Uni=Uni;
+		// TODO Auto-generated constructor stub
+	}
+	///definisco i metodi set e get
+	public void SetMatricola(String matricola) {
+		this.Matricola=matricola;
+	}
+	public void SetUni(String uni) {
+		this.Uni=uni;
+	}
+	public String GetMatricola() {
+		return Matricola;
+	}
+	public String GetUni() {
+		return Uni;
+	}
+	//definisco overraiding del metodo to sting
+
+	public String toString() {
+		return "Studente [codiceFiscale=" + this.GetCodiceFiscale() +
+		", nome=" + this.GetNome() +
+		", cognome=" + this.GetCognome() +
+		", matricola=" + Matricola +
+		", università="+ Uni + "]";
+		}
+
+}

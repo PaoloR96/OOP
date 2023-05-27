@@ -1,0 +1,5 @@
+package EntityDao;
+
+public interface OperazioniDAO_INTERFACE {
+
+}

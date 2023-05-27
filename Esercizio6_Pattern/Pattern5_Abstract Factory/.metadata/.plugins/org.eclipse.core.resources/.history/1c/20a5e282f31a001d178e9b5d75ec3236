@@ -1,0 +1,13 @@
+
+public class Rettangolo {
+	private int base;
+	private int altezza;
+	private int area;
+	public Rettangolo() {
+		this.base=0;
+		this.altezza=0;
+		this.area=0;
+		
+	}
+
+}

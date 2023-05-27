@@ -1,0 +1,7 @@
+
+public class Studente {
+	private String Matricola;
+	private String Nome;
+	private String Cognome;
+	private int eta;
+}

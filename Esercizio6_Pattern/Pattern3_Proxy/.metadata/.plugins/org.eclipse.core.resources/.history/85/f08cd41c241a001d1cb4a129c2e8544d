@@ -1,0 +1,14 @@
+
+public class ImmagineReale implements Immagine {
+	public String NomeFile;
+	
+	public ImmagineReale() {
+		
+	}
+	@Override
+	public void Mostra() {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

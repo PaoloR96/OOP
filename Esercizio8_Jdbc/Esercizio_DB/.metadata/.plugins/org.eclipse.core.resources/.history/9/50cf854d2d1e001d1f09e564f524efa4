@@ -1,0 +1,17 @@
+package Entity;
+
+public class Persona {
+	private String codiceFiscale;
+	private String Nome;
+	private String Cognome;
+	public Persona(String codf, String nome, String cognome) {
+		    
+		   this.codiceFiscale=codf;
+		   this.Nome=nome;
+		   this.Cognome=cognome;
+	}
+
+
+
+
+}

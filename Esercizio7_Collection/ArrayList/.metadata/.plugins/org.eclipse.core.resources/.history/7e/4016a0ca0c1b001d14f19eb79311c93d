@@ -1,0 +1,14 @@
+
+public class Studente {
+	private String Matricola;
+	private String Nome;
+	private String Cognome;
+	private int eta;
+	//definisco il costruttore parametrico
+	public Studente(String matr, String nome, String cognome,int eta) {
+		this.Matricola=matr;
+		this.Nome=nome;
+		this.Cognome=cognome;
+		this.eta=eta;
+	}
+}

@@ -1,0 +1,19 @@
+import java.sql.*;
+public class DbManager {
+	
+	
+	public void GetConnection() {
+		try {
+			//load driver
+			Class.forName("com.mysql.jdbc.Driver");
+			System.out.print("Driver Mysql Caricato!");
+			System.out.println();
+			
+		} catch (ClassNotFoundException e) {
+			System.out.print("Problemi nel caricamento del driver!");
+			System.out.println();
+		}
+	}
+	
+
+}

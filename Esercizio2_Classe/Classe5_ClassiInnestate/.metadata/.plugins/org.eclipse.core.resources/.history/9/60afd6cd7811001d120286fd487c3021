@@ -1,0 +1,9 @@
+
+public class Main {
+
+	public static void main(String [] args) {
+		Outer2 outer = new Outer2();
+		Outer2.Inner2 inner = outer.new Inner2();
+		inner.metodoInner();
+		}
+		}

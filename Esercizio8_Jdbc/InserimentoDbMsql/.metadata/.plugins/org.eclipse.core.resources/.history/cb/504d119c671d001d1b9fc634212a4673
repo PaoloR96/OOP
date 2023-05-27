@@ -1,0 +1,8 @@
+import java.sql.*;
+public class DbManager {
+	//load driver
+	
+	Class.forName("com.mysql.jdbc.Driver");  
+	
+
+}

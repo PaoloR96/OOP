@@ -1,0 +1,19 @@
+//Costruire una sottoclasse di Persona,chiamata Stagista, che contiene 2 variabili di
+//istanza di tipo intero:
+//• numeropresenze, che registra il numero di ore di presenza, 
+//• numeroidentificativo che registra il numero identificativo .
+//• La sottoclasse deve contenere un costruttore parametrico ed i metodi set e get. 
+
+
+
+
+
+
+
+public class Stagista extends Persona {
+
+
+
+
+
+}

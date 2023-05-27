@@ -1,0 +1,10 @@
+
+public class Addizione extends VideoRisultato  implements Operazione {
+
+	@Override
+	public void Operazione(int a, int b) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

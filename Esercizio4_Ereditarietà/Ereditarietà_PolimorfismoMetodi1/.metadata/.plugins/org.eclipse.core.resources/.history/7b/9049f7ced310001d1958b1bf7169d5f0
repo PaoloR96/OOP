@@ -1,0 +1,43 @@
+///. Si scriva una classe Persona dotata dei campi CodiceFiscale, Nome, Cognome 
+//e dei metodi per impostare e leggere tali valori. 
+//La classe inoltre dovrà essere dotata del metodo toString(). 
+public class Persona {
+	protected String CodiceFiscale;
+	protected String Nome;
+	protected String Cognome;
+	//definisco il costruttore parametrico
+	public Persona(String cf, String nome, String cognome) {
+		this.CodiceFiscale=cf;
+		this.Nome=nome;
+		this.Cognome=cognome;
+	}
+	//definisco i metodi di  get
+	public String GetCodiceFiscale() {
+		return CodiceFiscale;
+	}
+	public String GetNome() {
+		return Nome;
+	}
+	public String GetCognome() {
+		return Cognome;
+	}
+	//definisco i metodi set
+	public void SetCodiceFiscale(String cf) {
+		this.CodiceFiscale=cf;
+	}
+	public void SetNome(String nome) {
+		this.Nome=nome;
+	}
+	public void SetCognome(String cognome) {
+		this.Cognome=cognome;
+	}
+	//definisco il metodo to string
+	
+	
+	public String toString() {
+		String s="Persona [codiceFiscale=" + CodiceFiscale +", nome=" + Nome +", cognome=" + Cognome + "]";
+		return s;
+		}
+
+
+}
